@@ -5,40 +5,44 @@
 
 h1 {
     color: red; /* declaration */
-    font-size: 18px; /* declaration */
+    font-size: 32px; /* declaration */
+    background-color: green;
 }
 
-p {
-    color: blue; /* declaration */
+.p1 {
+    background-color: green;
+    text-emphasis-color: white; 
+    font-size: 22px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px; 
+    border-style: dotted;
 }
 
-div
-{
-    width: 500px;
-    height: 200px;
-    background: aqua;
-    margin-bottom: 20px;
+#p2 {
+    background-color: green;
+    text-color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px; 
+    border-style: dotted;       
 }
 
-div p {
-    color: black; /* declaration */
-   }
+body {
+    background-color: white;
+    background-image: url(Pasted\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto 100%;
+    background-attachment: fixed;
 
-.text-bk {
-    color: red;
-    text-align: right;
-         }
-
-.first-div {
-    background-color: blue;
-          }
-.first-div
-{
-    width: 500px;
-    height: 200px;
-    background: red;
-    margin-bottom: 20px;
 }
+
+
 
 
 
