@@ -16,6 +16,18 @@ h1 {
     line-height: 2;
 }
 
+h3{
+    text: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3 vw;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+
+}
+
 .p1 {
     background-color: green;
     text-emphasis-color: white; 
@@ -85,5 +97,17 @@ body {
     outline-color: blue;
     outline-offset: 10px;
   }
+
+  .fa-brands {
+    font-size: 100px;
+    color: blue;
+  } 
+
+  .material-symbols-outlined {
+    font-size: 100px;
+    color: blue;    
+  }
+
+
 
 
